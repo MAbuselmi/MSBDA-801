@@ -223,7 +223,7 @@ python src/streaming.py --model models/logistic_regression/ --input data/streami
 ```bibtex
 @misc{bigdata2026arabic,
   title={Scalable Real-time Detection of AI-Generated Arabic Text},
-  author={[Your Name]},
+  author={[Mohammed Abuselmi]},
   year={2026},
   institution={Taibah University},
   course={MSBDA-801 Big Data Analytics}
@@ -234,30 +234,18 @@ python src/streaming.py --model models/logistic_regression/ --input data/streami
 
 ## 👥 Contributors
 
-- **[Your Name]** - *Project Lead* - [GitHub Profile](https://github.com/yourusername)
+- **[Mohammed Abuselmi]** - *Project Lead* - [GitHub Profile](https://github.com/yourusername)
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🙏 Acknowledgments
 
 - **Dataset:** KFUPM-JRCAI team for the Arabic-generated-abstracts dataset
-- **Instructor:** [Course Instructor Name] - MSBDA-801
+- **Instructor:** [Dr. Mohammed Al-Sarem] - MSBDA-801
 - **Institution:** Taibah University
 
----
 
-## 📧 Contact
-
-For questions or collaboration:
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/yourprofile)
-
----
 
 **⭐ If you find this project useful, please consider giving it a star!**
