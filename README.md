@@ -234,7 +234,7 @@ python src/streaming.py --model models/logistic_regression/ --input data/streami
 
 ## 👥 Contributors
 
-- **[Mohammed Abuselmi]** - *Project Lead* - [GitHub Profile](https://github.com/yourusername)
+- **[Mohammed Abuselmi]** 
 
 ---
 
@@ -248,4 +248,3 @@ python src/streaming.py --model models/logistic_regression/ --input data/streami
 
 
 
-**⭐ If you find this project useful, please consider giving it a star!**
