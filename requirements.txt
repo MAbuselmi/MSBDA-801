@@ -1,0 +1,6 @@
+pyspark>=3.5.0
+findspark
+datasets
+nbformat>=5.0.0
+pandas
+pyarrow
