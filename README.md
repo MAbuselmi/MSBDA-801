@@ -17,7 +17,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
-- [Pipeline Architecture](#pipeline-architecture)
 - [Contributors](#contributors)
 
 ---
@@ -159,50 +158,6 @@ python src/streaming.py --model models/logistic_regression/ --input data/streami
 | 8 executors × 4 cores | ~1,342 rec/sec | 20x |
 
 **Stream Processing:** <10 sec latency, ~5 rec/sec
-
----
-
-## 🏗️ Pipeline Architecture
-┌─────────────────┐
-│ Hugging Face │
-│ Dataset │
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ Spark DataFrame │
-│ (Parquet) │
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ Preprocessing │
-│ - Normalization │
-│ - Stemming │
-│ - Stopwords │
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ Feature Eng. │
-│ - Stylometric │
-│ - TF-IDF │
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ ML Training │
-│ - LR / RF / SVM │
-│ - Tuning │
-└────────┬────────┘
-│
-├─────────────────┐
-▼ ▼
-┌─────────────────┐ ┌─────────────────┐
-│ Batch Mode │ │ Stream Mode │
-│ 67 rec/sec │ │ <10s latency │
-└─────────────────┘ └─────────────────┘
-
 
 ---
 
